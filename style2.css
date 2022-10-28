@@ -1,0 +1,116 @@
+/* Un peu de design quand même*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.549), rgba(0, 0, 0, 0.376)) ,url('../img/bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    color: orange;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#fleche {
+    position: relative;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 9000;
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid #dfdfdf;
+}
+
+#mise {
+    width: 300px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    color: orange;
+}
+
+#roue {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 20px;
+}
+
+/* Button */
+
+#jouer{
+    position: relative;
+    top: -8px;
+    padding: 6px 22px;
+    font-size: 20px;
+    background-color: #ffbc40;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
+
+/* Portefeuille */
+
+#portefeuille {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    padding: 5px 30px;
+    color: rgb(0, 0, 0);
+    background-color: #dfdfdf;
+    border: 5px solid #757575;
+    border-radius: 10px;
+}
+
+#portefeuille .monnaie {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 970px) {
+    #portefeuille {
+        top: 12%;
+        right: 5%;
+        padding: 8px 25px;
+        border: 3px solid #757575;
+    }
+    #portefeuille .monnaie {
+        font-size: 16px;
+        line-height: 1.2;    
+    }    
+}
+
+@media screen and (max-width: 750px) {
+    #portefeuille {
+        top: 13%;
+        padding: 5px 10px;
+    }
+    #portefeuille .monnaie {
+        font-size: 12px;  
+    }    
+}
+
+@media screen and (max-width: 650px) {
+    #portefeuille {
+        top: 20%;
+    }
+}

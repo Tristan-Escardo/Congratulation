@@ -1,0 +1,80 @@
+body
+{
+    background-image: url(heartPic.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-color: lightpink;
+}
+
+header
+{
+    color: deeppink;
+    background-image: linear-gradient( deeppink,white);
+    border-radius: 0 0 10% 10%;
+}
+
+h1, p
+{
+    text-align: center;
+}
+
+h1
+{
+    margin: 0%;
+    padding-top: 3%;
+    color: gold;
+}
+
+p
+{
+    font-weight: bolder;
+    color: fuchsia
+}
+
+header > p
+{
+    padding-bottom: 3%;
+}
+
+.bottomIntro
+{
+    margin-top: 5%;
+}
+
+.arrowContent
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.fa-down-long
+{
+    color: fuchsia;
+    font-size: 100px;
+}
+
+.fa-down-long:hover
+{
+    transform: rotate(360deg);
+    transition: transform 0.3s;
+}
+
+.heartContent
+{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-heart
+{
+    color: deeppink;
+    transition: color 1s;
+    margin-top: 4%;
+    font-size: 350px;
+}
+
+.fa-heart:hover
+{
+    color: red;
+}
