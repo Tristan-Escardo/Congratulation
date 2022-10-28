@@ -48,7 +48,7 @@ function argentAleatoire(deg) {
         alert("Gagné ! Un massage de moi parce que tu supportes que les miens");
         break;
       case valeur > 180 && valeur <= 210:
-        alert("Ou sur le front ahah !");
+        alert("Gagné ! Un bisous sur le nez... ou sur le front ahah !");
         break;
       case valeur > 210 && valeur <= 240:
         alert("Gagné ! Un compliment, c'est pas mal !");
@@ -60,10 +60,10 @@ function argentAleatoire(deg) {
         alert("Ohhh trop bien c'est pas mal ça !");
         break;
       case valeur > 300 && valeur <= 330:
-        alert("Trop bien ! Vasy rappuie sur le bouton mon bon babe !");
+        alert("Trop bien ! Vas y rappuie sur le bouton mon bon babe !");
         break;
       case valeur > 330 && valeur <= 350:
-        alert("Ou sur le nez ahah");
+        alert("Gagné ! Un bisous sur le front... ou sur le nez ahah !");
         break;
     }
   }, 5000);
